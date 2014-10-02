@@ -1,0 +1,14 @@
+{
+    "name": "log",
+    "description": "Wakanda Server logging",
+    "version": "1.0",
+    "author": [
+        "Patrick Poetschke"
+    ],
+    "contributors": [
+    ],
+    "keywords": ["wakanda"],
+    "main": "./index.js",
+    "engines": {"wakanda" : ">=8"},
+    "license": "MIT"
+}

@@ -11,6 +11,7 @@
 	<service name="upload" modulePath="services/upload" enabled="true" autoStart="true"/>
 	<service name="Git HTTP Service" modulePath="services/waf-git/waf-GitService" enabled="true"/>
 	<service name="Builder handler" modulePath="services/builder-service" enabled="true" max-age="0" hardCache="false"/>
+	<service name="startWorkers" modulePath="startWorkers" enabled="true"/>
 	<virtualFolder location="/WIDGETS_CUSTOM/" name="widgets-custom"/>
 	<virtualFolder location="/THEMES_CUSTOM/" name="themes-custom"/>
 	<resources location="/walib/" lifeTime="31536000"/>
