@@ -1,5 +1,3 @@
-##Welcome to Wakanda##
+Demo of a logging module for Wakanda
 
-This is the place to describe your Wakanda application.
-
-Please visit [www.wakanda.org](http://www.wakanda.org "wakanda.org") for more information.
+Module is found in solution/Modules/log. Don't forget to change credentials in log/index.js and log/logWorker.js.
